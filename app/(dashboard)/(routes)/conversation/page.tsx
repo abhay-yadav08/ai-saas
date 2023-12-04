@@ -24,12 +24,7 @@ import { BotAvatar } from "@/components/bot-avatar";
 const ConversationPage = () => {
     const router = useRouter();
 
-
-
-
     const [messages, setMessages] = useState<OpenAI.Chat.CreateChatCompletionRequestMessage[]>([])
-
-
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),

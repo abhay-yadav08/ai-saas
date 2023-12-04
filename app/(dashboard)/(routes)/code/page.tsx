@@ -60,7 +60,6 @@ const CodePage = () => {
 
         } catch (error) {
 
-            // TODO : Open pro model 
             console.log(error);
         } finally {
             router.refresh();
